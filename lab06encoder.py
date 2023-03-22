@@ -1,3 +1,4 @@
+#comment 1
 
 def encoder(password):
     res = ""
