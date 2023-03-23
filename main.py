@@ -18,7 +18,11 @@ def encoder(raw_data):
 
     # return
     return encoded_message
-
+def decoder(password):
+    res = ""
+    for char in password:
+        res += str(int(char) - 3)
+    return res
 
 #moxi's main
 def main():
